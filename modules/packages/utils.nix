@@ -19,5 +19,7 @@
     nmap
     whois
     unzip
+    emacs
+    dmidecode
   ];
 }
