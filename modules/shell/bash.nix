@@ -1,7 +1,8 @@
 { config, pkgs, ... }:
 {
   # Removes newline from default prompt
-  programs.bash.promptInit = ''
+  programs.bash = {
+    promptInit = ''
         if [ "$TERM" != "dumb" -o -n "$INSIDE_EMACS" ]; then
           PROMPT_COLOR="1;31m"
           let $UID && PROMPT_COLOR="1;32m"
@@ -15,5 +16,12 @@
             PS1="\[\033]2;\h:\u:\w\007\]$PS1"
           fi
         fi
-  '';
+    '';
+    
+    enableCompletion = true;
+
+    interactiveShellInit = ''
+      export PATH=$PATH:~/bin
+    '';
+  };
 }

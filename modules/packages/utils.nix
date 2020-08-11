@@ -21,5 +21,6 @@
     unzip
     emacs
     dmidecode
+    acpi
   ];
 }
