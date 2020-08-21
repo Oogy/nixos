@@ -7,7 +7,6 @@
         (package-initialize)
         (use-package exwm)
         (use-package puppet-mode)
-        (use-package elpa-flycheck)
       '';
       alwaysEnsure = true; })
   ];

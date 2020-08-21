@@ -27,5 +27,6 @@
     feh
     compton
     qutebrowser
+    lsof
   ];
 }
