@@ -1,4 +1,3 @@
-{ config, pkgs, ... }:
 {
   # Removes newline from default prompt
   programs.bash = {

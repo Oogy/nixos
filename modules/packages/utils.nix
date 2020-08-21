@@ -1,8 +1,7 @@
-{ config, pkgs, ... }:
-
+{ pkgs, ... }:
 {
   nixpkgs.config.allowUnfree = true;
- 
+
   environment.systemPackages = with pkgs; [
     wget 
     vim
@@ -19,8 +18,14 @@
     nmap
     whois
     unzip
-    emacs
     dmidecode
     acpi
+    pwgen
+    file
+    socat
+    libinput
+    feh
+    compton
+    qutebrowser
   ];
 }

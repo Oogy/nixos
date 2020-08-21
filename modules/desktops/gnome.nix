@@ -1,10 +1,12 @@
-{ config, pkgs, ... }:        
-
+{ pkgs, ... }:
 {
   services = {
     xserver = {
       enable = true;
       displayManager.gdm.enable = true;
+      displayManager.sessionCommands = ''
+        xinput --disable $(xinput list --id-only "ELAN Touchscreen")
+      '';
       desktopManager.gnome3.enable = true;
       libinput.enable = true;
     };

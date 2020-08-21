@@ -1,5 +1,3 @@
-{ config, pkgs, ... }:
-
 {
   imports = [
     ../desktops/gnome.nix
@@ -7,5 +5,6 @@
     ../services/workstation.nix
     ../shell/bash.nix
     ../locale/us-east.nix
+    ../overlays/emacs-overlay.nix
   ];
 }
