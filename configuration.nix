@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   imports = [
-    ./modules/hosts/razer-blade-stealth.nix
+    ./modules/hosts/vbox.nix
     ./hardware-configuration.nix
   ];
 }

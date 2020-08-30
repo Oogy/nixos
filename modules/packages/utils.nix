@@ -28,5 +28,6 @@
     compton
     qutebrowser
     lsof
+    rsync
   ];
 }

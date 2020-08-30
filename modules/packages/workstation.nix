@@ -4,5 +4,6 @@
     ./utils.nix
     ./cloud.nix
     ./emacs.nix
+    ./emacs-unstable.nix
   ];
 }
