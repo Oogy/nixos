@@ -5,5 +5,6 @@
     ./cloud.nix
     ./emacs.nix
     ./emacs-unstable.nix
+    ./astra.nix
   ];
 }

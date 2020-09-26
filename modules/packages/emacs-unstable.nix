@@ -11,5 +11,6 @@
 	  :mode "\\.nix\\'")	
       '';
       alwaysEnsure = true; })
+    texlive.combined.scheme-medium
   ];
 }

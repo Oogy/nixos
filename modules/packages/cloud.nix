@@ -10,5 +10,6 @@
     packer
     kind
     kubernetes
+    s3cmd
   ];
 }

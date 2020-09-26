@@ -1,7 +1,7 @@
 { pkgs, ... }:
 {
   imports = [
-    ./modules/hosts/vbox.nix
+    ./modules/hosts/t480.nix
     ./hardware-configuration.nix
   ];
 }

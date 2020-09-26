@@ -11,4 +11,18 @@
       kanshi # autorandr
     ];
   };
+
+  environment.etc {
+    "sway/config".text = ''
+
+    '';
+
+    "xdg/waybar/config".text = ''
+
+    '';
+
+    "xdg/waybar/style.css".text = ''
+
+    '';
+  };
 }

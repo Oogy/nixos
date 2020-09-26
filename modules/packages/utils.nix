@@ -29,5 +29,13 @@
     qutebrowser
     lsof
     rsync
+    lm_sensors
+    wineWowPackages.stable
+    vagrant
+    virtualbox
+    python38Packages.pip
+    pipenv
+    thunderbolt
+    bolt
   ];
 }
